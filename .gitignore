@@ -1,0 +1,40 @@
+# macOS / editor state
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local agent instructions; not part of the CS:APP lab submissions.
+AGENTS.md
+
+# Generic C build artifacts
+*.o
+*.a
+*.so
+*.dylib
+core
+core.*
+*.tar
+*.zip
+*.gz
+
+# CS:APP lab generated outputs
+Handout/cachelab/.csim_results
+Handout/cachelab/.marker
+Handout/cachelab/trace.all
+Handout/cachelab/trace.f*
+Handout/cachelab/*-handin.tar
+
+Handout/malloclab/mdriver
+
+Handout/perflab/driver
+
+Handout/proxylab/proxy
+Handout/proxylab/*-proxylab-handin.tar
+
+# Keep generic target directories out, without hiding named lab instances like target1.
+target/
+*/target/
